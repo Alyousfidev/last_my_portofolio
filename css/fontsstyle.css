@@ -1,26 +1,31 @@
 @font-face {
-    src: url(/fonts/az-topaz.ttf);
     font-family: aztopaz;
+    src: url('/fonts/az-topaz.ttf');
+    
 
 }
 @font-face {
-    src: url(/fonts/advertisingbold.ttf);
     font-family: advertising;
+    src: url('/fonts/advertisingbold.ttf');
+    
 
 }
 @font-face {
-    src: url(/fonts/ANTQUAB.TTF);
     font-family: antqoub;
+    src: url('/fonts/ANTQUAB.TTF');
+    
 
 }
 @font-face {
-    src: url(/fonts/Reqa.ttf);
     font-family: reqa;
+    src: url('/fonts/Reqa.ttf');
+    
 
 }
 @font-face {
-    src: url(/fonts/Aljazeera.ttf);
     font-family: jazeera;
+    src: url('/fonts/Aljazeera.ttf');
+    
 
 }
 html[lang="en"] #title {
