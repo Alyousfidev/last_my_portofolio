@@ -1,27 +1,27 @@
 @font-face {
     font-family: aztopaz;
-    src: url('./fonts/az-topaz.ttf'); /* تم التعديل من /fonts/ إلى ./fonts/ */
+    src: url('../fonts/az-topaz.ttf'); /* تم التعديل من /fonts/ إلى ./fonts/ */
     /* يُفضل إضافة صيغ خطوط أخرى مثل .woff2, .woff لزيادة التوافقية */
 }
 
 @font-face {
     font-family: advertising;
-    src: url('./fonts/advertisingbold.ttf'); /* تم التعديل */
+    src: url('../fonts/advertisingbold.ttf'); /* تم التعديل */
 }
 
 @font-face {
     font-family: antqoub;
-    src: url('./fonts/ANTQUAB.TTF'); /* تم التعديل */
+    src: url('../fonts/ANTQUAB.TTF'); /* تم التعديل */
 }
 
 @font-face {
     font-family: reqa;
-    src: url('./fonts/Reqa.ttf'); /* تم التعديل */
+    src: url('../fonts/Reqa.ttf'); /* تم التعديل */
 }
 
 @font-face {
     font-family: jazeera;
-    src: url('./fonts/Aljazeera.ttf'); /* تم التعديل */
+    src: url('../fonts/Aljazeera.ttf'); /* تم التعديل */
 }
 html[lang="en"] #title {
     font-size: 28px; /* حجم أكبر لـ h1 في الإنجليزية */
