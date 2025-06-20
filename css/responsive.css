@@ -1,0 +1,89 @@
+/* لما الشاشة تصير متوسطة */
+@media (max-width: 992px) {
+  body{
+    width: 100%;
+  }
+  .services .container .services-items {
+ grid-template-columns: repeat(2, 1fr); /* عمودين */
+  }
+.projects .container-proj .project-items {
+ grid-template-columns: repeat(2, 1fr); /* عمودين */
+}
+ .services .container .title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  right: 0;
+
+}
+  
+}
+
+
+/* لما الشاشة تصير صغيرة (جوال) */
+@media (max-width: 576px) {
+ 
+  body{
+    width: 100%;
+  }
+.navbar , .about, .services ,.projects ,.contact{
+  width: 100%;
+  height: auto;
+}
+.services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+.services .container {
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+.services .title{
+  margin-bottom: -10px;
+}
+  .services .container .services-items {
+ grid-template-columns: 1fr; /* عمود واحد */
+  }
+.projects .container-proj .project-items {
+ grid-template-columns: 1fr; /* عمود واحد */
+  
+}
+.about{
+  height: auto;
+}
+.about-prag {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  background-color: aliceblue;
+  z-index: 2222222222;
+  padding: 10px;
+  border-radius: 30px;
+  opacity: 0.7;
+  padding: 15px;
+  align-self: flex-end;
+  width: 270px;
+
+}
+.about-prag h2{
+  font-size: 15px;
+}
+.about-prag p{
+  font-size: 14px;
+}
+#carouselExampleDark{
+  width: 100%;
+  height: 100%;
+}
+}
