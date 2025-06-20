@@ -37,8 +37,8 @@ const enArTransl = {
   ar: {
     title: "أمــــين اليوسفي",
     aboutLink:"حولنا",
-    servicesLink: "خدماتنا",
-    projectsLink:"مشروعاتنا",
+    servicesLink: "خدمـا تنا",
+    projectsLink:"مشروعا تنا",
     contact:"للتواصل",
     searchBtn:"بحث",
     titlePrag:"أمــــــــين اليــــوسفي",

@@ -1,0 +1,102 @@
+@font-face {
+    src: url(/fonts/az-topaz.ttf);
+    font-family: aztopaz;
+
+}
+@font-face {
+    src: url(/fonts/advertisingbold.ttf);
+    font-family: advertising;
+
+}
+@font-face {
+    src: url(/fonts/ANTQUAB.TTF);
+    font-family: antqoub;
+
+}
+@font-face {
+    src: url(/fonts/Reqa.ttf);
+    font-family: reqa;
+
+}
+@font-face {
+    src: url(/fonts/Aljazeera.ttf);
+    font-family: jazeera;
+
+}
+html[lang="en"] #title {
+    font-size: 28px; /* حجم أكبر لـ h1 في الإنجليزية */
+    font-weight: bolder;
+    font-family: "antqoub";
+}
+html[lang="ar"] #title-prag {
+    font-size: 28px; /* حجم أكبر لـ h1 في الإنجليزية */
+    font-weight: bolder;
+    font-family: "aztopaz";
+}
+
+html[lang="ar"] #title {
+    font-family: 'aztopaz', 'Amiri', sans-serif; /* استخدام خط عربي */
+    font-size: 25px; /* حجم أكبر لـ h1 في العربية */
+    font-weight: bolder;
+    text-align: right; /* محاذاة لليمين للنص العربي */
+}
+
+html[lang="ar"] #pragone,
+html[lang="ar"] #pragtwo,
+html[lang="ar"] #about-link,
+html[lang="ar"] #services-link,
+html[lang="ar"] #projects-link,
+html[lang="ar"] #contacts
+
+{
+    font-size: 17px; /* حجم أكبر لـ h1 في الإنجليزية */
+    font-weight: 700;
+    font-family: "jazeera";
+
+}
+
+html[lang="ar"] #web-text,
+html[lang="ar"] #ved-text,
+html[lang="ar"] #photo-text,
+html[lang="ar"] #brand-text,
+html[lang="ar"] #mark-text,
+html[lang="ar"] #post-text,
+html[lang="ar"] #social-text,
+html[lang="ar"] #print-text
+
+{
+    font-size: 16px; /* حجم أكبر لـ h1 في الإنجليزية */
+    font-weight: 600;
+    font-family: "jazeera";
+    text-align: center;
+
+}
+
+html[lang="ar"] #web-info,
+html[lang="ar"] #ved-info,
+html[lang="ar"] #photo-info,
+html[lang="ar"] #brand-info,
+html[lang="ar"] #mark-info,
+html[lang="ar"] #post-info,
+html[lang="ar"] #social-info,
+html[lang="ar"] #print-info
+
+{
+    font-size: 19px; /* حجم أكبر لـ h1 في الإنجليزية */
+    font-weight: 500;
+    font-family: "reqa";
+    text-align: center;
+
+}
+
+
+html[lang="ar"] #our-service,
+html[lang="ar"] #project,
+html[lang="ar"] #contact-title
+
+
+{
+    font-family: 'aztopaz', 'Amiri', sans-serif; /* استخدام خط عربي */
+    font-size: 35px; /* حجم أكبر لـ h1 في العربية */
+    font-weight: bolder;
+}

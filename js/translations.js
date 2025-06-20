@@ -57,7 +57,7 @@ function changeLanguage(lang) {
       element.textContent = enArTransl[lang][elements[id]];
     }
   });
-
+  
   // تغيير الخط حسب اللغة
   if (lang === "ar") {
     document.body.style.fontFamily = "'Cairo', 'Amiri', serif";

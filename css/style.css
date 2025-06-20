@@ -16,6 +16,9 @@
     box-shadow: 1px 1px 10px 2px black;
 
 }
+#title{
+  font-size: 49px;
+}
 .about {
   height: 75vh;
   overflow: hidden;
@@ -40,7 +43,7 @@
   top: 150px;
   right: 150px;
   background-color: aliceblue;
-  z-index: 2222222222;
+  z-index: 2222;
   padding: 25px;
   border-radius: 30px;
   opacity: 0.7;
@@ -86,6 +89,7 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
+  margin-top: 20px;
 }
 .services .container .title h2 span {
   color: #ccff33;
@@ -128,6 +132,9 @@
   transition: all 1s ease-in-out;
   border-radius: 50%;
   opacity: 0;
+}
+.services .container .services-items .card .card-body{
+  width: 100%;
 }
 .services .container .services-items .card:hover  .info{
   width: 100%;
@@ -264,9 +271,13 @@ font-size: 18px;
   width: 50px;
   height: 100%;
   cursor: pointer;
+  
 }
 .contact .container-cont .card-contact a{
   text-decoration: none;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
   
 }
 .contact .container-cont .card-contact p{
@@ -274,11 +285,16 @@ font-size: 18px;
   color: #047235;
   display: none;
   transition: all 1s ease-in-out;
+  text-align: center;
+  font-size: 15px;
+  padding-right: 20px;
 
 }
 .contact .container-cont .card-contact p.active{
   display: block;
   transition: all 1s ease-in-out;
+    font-size: 15px;
+
 
 }
 /* -----------------------------------------------------------------------contact End*/
